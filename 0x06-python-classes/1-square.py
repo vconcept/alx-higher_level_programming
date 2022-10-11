@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+"""Use this class well"""
 class Square:
     """This is a square class"""
 
