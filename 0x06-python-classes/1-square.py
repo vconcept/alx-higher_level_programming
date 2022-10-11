@@ -6,3 +6,4 @@ class Square:
         """This method stores the square size.
         """
         self.__size = size
+        """This is the new size conferred to the protected class"""
