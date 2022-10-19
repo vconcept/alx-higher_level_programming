@@ -1,0 +1,47 @@
+The arguments supplied (a & b) must be integers or floats
+
+The first case is to test for addition of two numbers
+
+Lets import the fucntion from the module first
+
+>>> add_integer = __import__('0-add_integer').add_integer
+
+Now lets add the numbers
+
+>>> add_integer(1, 2)
+3
+
+>>> add_integer(100, -2)
+98
+
+>>> add_integer(2)
+100
+
+>>> add_integer(100.3, -2)
+98
+
+Addingg non numbers now
+
+>>> (add_integer(4, "School"))
+Traceback (most recent call last):
+...
+TypeError: b must be an integer
+
+>>> (add_integer(None))
+Traceback (most recent call last):
+...
+TypeError: a must be an integer
+
+Adding a number and a list
+
+>>> add_integer(123, [])
+Traceback (most recent call last):
+...
+TypeError: b must be an integer
+
+Passing a string
+
+>>> add_integer("Hello")
+Traceback (most recent call last):
+...
+TypeError: a must be an integer
